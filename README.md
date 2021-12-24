@@ -45,10 +45,14 @@ npm install
 Next add a ```.env``` file to the projects root directory
 
 Add this to the ```.env``` file if you plan on using MongoDB locally
-```MONGO_URI=mongodb://localhost:27017/databaseName```
+```
+MONGO_URI=mongodb://localhost:27017/databaseName
+```
 
 Otherwise add this replace this example URI with the URI to your atlas cluster
-```MONGO_URI=mongodb+srv://username:password@cluster0.example.mongodb.net/database_name```
+```
+MONGO_URI=mongodb+srv://username:password@cluster0.example.mongodb.net/database_name
+```
 
 And finally start the server
 ```
