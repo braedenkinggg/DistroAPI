@@ -22,7 +22,7 @@ DistroAPI is an open source REST API for users to find information on many diffe
 
 
 ## Technologies {#technologies}
-This project was created with the following technologies:
+This project was created with the following technologies:\
 ![node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 ![mongodb](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
