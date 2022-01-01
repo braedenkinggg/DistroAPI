@@ -8,7 +8,7 @@
 - [Development Setup](#dev-setup)
 
 
-## About {#about}
+## About
 DistroAPI is an open source REST API for users to find information on many different Linux distributions.
 
 ### Routes
@@ -21,7 +21,7 @@ DistroAPI is an open source REST API for users to find information on many diffe
 |/distros/:name |DELETE      |Deletes distro with specified name             |
 
 
-## Technologies {#technologies}
+## Technologies
 This project was created with the following technologies:\
 ![node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
@@ -32,7 +32,7 @@ This project was created with the following technologies:\
 - MongoDB (v5.0.5)
 
 
-## Development Setup {#dev-setup}
+## Development Setup
 First clone the repository
 ```git clone https://github.com/braedenkinggg/DistroAPI```
 
