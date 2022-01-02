@@ -1,6 +1,6 @@
 const express = require('express');
 
-const distroRoutes = require('./distroRoutes');
+const distroRoutes = require('./distro.routes.js');
 
 const router = express.Router();
 

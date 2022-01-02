@@ -14,10 +14,6 @@ const DistroSchema = new Schema({
         type: String,
         required: true,
     },
-    releaseModel: {
-        type: String,
-        default: 'no release model specified'
-    },
     website: {
         type: String,
         required: true,

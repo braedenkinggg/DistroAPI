@@ -1,9 +1,11 @@
-const { logEvents } = require('./logger');
+const HttpError = require('../utils/HttpError');
 
 const errorHandler = (err, req, res, next) => {
-    console.error(err);
-    res.status(err.statusCode).json({ error: err.message });
-    logEvents(`${err.statusCode}: ${err.message}\n`, 'errorLogs.txt');
+    if (err instanceof HttpError) {
+        res.status(err.statusCode).json({ error: err.message });
+    } else {
+        res.status(500).json({ error: 'Internal Server Error' });
+    }
 }
 
 module.exports = errorHandler;

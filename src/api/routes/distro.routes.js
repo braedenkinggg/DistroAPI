@@ -1,13 +1,11 @@
 const express = require('express');
-
-const distroController = require('../controllers/distroController');
-const validation = require('../validation/auth');
-
 const router = express.Router();
 
+const { distroController } = require('../controllers');
+
 router.get('/', distroController.getAllDistros);
-router.post('/', validation.distro, distroController.postDistro);
 router.get('/:name', distroController.getDistro);
+router.post('/', distroController.postDistro);
 router.put('/:name', distroController.updateDistro);
 router.delete('/:name', distroController.deleteDistro);
 
